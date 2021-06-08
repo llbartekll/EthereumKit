@@ -12,7 +12,7 @@ let package = Package(
             targets: ["EthereumKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/yuzushioh/CryptoEthereumSwift", from: "2.0.0"),
+        .package(url: "https://github.com/llbartekll/CryptoEthereumSwift", from: "2.0.0"),
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift", from: "1.0.0")
     ],
     targets: [
